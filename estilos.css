@@ -10,94 +10,9 @@ body{
 .navbar {
 	min-height: 56px;
 }
-.navbar .btn {
-	padding: .625rem 1.25rem !important;
-}
-.text-primary{
-	color: var(--primary) !important;	
-}
-.btn{
-	padding: 1rem;
-}
-.btn-primary{
-	background-color: var(--primary);
-	border-color: var(--primary);
-}
-.btn-primary:hover{
-	background-color: var(--primary);
-	border-color: var(--primary);
-}
-.bg-primary{
-	background-color: var(--primary) !important;
-}
-.content{
-	max-width: 500px;
-}
-img .me-3{
-	width: 41px;
-	height: 41px;
-}
-.doge_img img{
-	width: 440px;
-	height: 570px;
-}
-section{
-	height: 900px;
-}
-.step{
-		position: relative;
-		display: flex;
-		justify-content: center;
-}	
-.step::after {
-	content: '';
-	border-right: 1px solid black;
-	height: 60px;
-	position: absolute;
-	top: 34px;
-	opacity: .2;
-}
-.bg-light{
-	background-color: var(--grey) !important;
-}
-.call-to-action{
-	padding: 20px;
-	border-radius: 50px;
-}
-.col-lg-4 img{
-	border-radius: 15px;
-}
+
 .navbar-toggler:focus {
 	box-shadow: none;
-}
-.cta-form{
-	max-width: 480px;
-}
-.cta-form .form-control{
-	min-height: 82px;
-}
-.cta-form .btn{
-	top: 12px;
-	right: 12px;
-}
-.rounded{
-	border-radius: 15px !important;
-}
-
-
-@media (max-width:  992px){
-	.navbar{
-		position: relative !important;
-	}
-	section{
-		height: unset;
-	}
-	.call-to-action img{
-		max-width: 100%;
-	}
-	.w-75{
-		width: 100% !important;
-	}
 }
 
 input[type=text] {
@@ -164,7 +79,7 @@ input[type=text] {
 	position: relative;
 	top: -39px;
 	border: 5px solid white;
-	border-radius: 50px;
+	/*border-radius: 50px;*/
 	border-spacing: 3px;
 	background-color: #fff;
 	box-shadow: 0px 0px 10px #000000;
@@ -186,4 +101,15 @@ input[type=text] {
 }
 .indie{
 	z-index: 3;
+}
+.bloque-rank:hover{
+	transition: 0.2s;
+	box-shadow: 2px 2px 2px 2px grey !important;
+	border-radius: 10px !important;
+}
+tbody, td, tfoot, th, thead, tr {
+    border: none !important;
+}
+.table{
+	    --bs-table-hover-bg: rgb(255,255,255) !important;
 }
